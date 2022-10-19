@@ -1,0 +1,11 @@
+$mycolor:red;
+$fontdisp: sans-serif;
+
+body{
+    font-family: $fontdisp;
+    color: $mycolor;
+    background-color: $mycolor ;
+}
+@mixin display {
+    color: $mycolor;
+}
